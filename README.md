@@ -1,89 +1,96 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# ZAMI — Cultive sua liberdade financeira
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+**Projeto desenvolvido para o desafio de Vibe Coding da DIO.**
 
-## ✨ O que é Vibe Coding
+## Sobre o projeto
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+A ZAMI é um aplicativo de organização financeira pensado para mulheres de 20 a 50 anos.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+A proposta é facilitar o controle financeiro por meio de uma assistente de Inteligência Artificial que conversa de forma natural, ajudando a organizar gastos, planejar metas e tomar decisões financeiras.
 
-## 🎯 Desafio
+O aplicativo considera despesas do cotidiano, como skincare, salão, compras online, alimentação, viagens e cursos, oferecendo uma experiência personalizada para cada usuária.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+## Objetivo
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+Criar o conceito de um aplicativo financeiro utilizando IA e Vibe Coding, desde o planejamento das funcionalidades até a criação de um protótipo no Lovable.
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+## Prompt final — PRD
 
-## 🪄 Etapas do Desafio
+### Contexto
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Quero criar a ZAMI, um aplicativo SaaS de finanças pessoais para mulheres, com uma assistente de IA que ajude a organizar despesas e planejar objetivos financeiros por meio de conversas simples.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+### Problema
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Muitas mulheres têm dificuldade para controlar seus gastos e encontrar ferramentas financeiras práticas e personalizadas.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+A ZAMI busca simplificar esse processo, oferecendo uma experiência intuitiva e sem julgamentos.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+### Público-alvo
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Mulheres de 20 a 50 anos que desejam organizar suas finanças, economizar e alcançar objetivos pessoais.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+### Funcionalidades-chave
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+1. **Assistente com IA:** conversa com a usuária, esclarece dúvidas e oferece sugestões financeiras.
+2. **Registro de gastos:** permite informar despesas por chat, como compras na Shein, salão e skincare.
+3. **Categorias personalizadas:** organiza despesas conforme a rotina de cada mulher.
+4. **Calculadora de metas:** calcula quanto guardar por mês para viagens, cursos e outros objetivos.
+5. **Dashboard:** apresenta receitas, despesas e evolução das metas.
+6. **Onboarding personalizado:** adapta a experiência aos objetivos da usuária.
+7. **Planos de assinatura:** Free, Essencial, Plus e Pro, com diferentes benefícios e limites de IA.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+### Entregável da IA
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+Criar um MVP com as principais telas, funcionalidades e fluxo de navegação da ZAMI.
 
-### 2. Explorando o Lovable na Prática
+O aplicativo deve ter um visual moderno, minimalista e acolhedor, utilizando verde, creme e rosa suave.
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+A primeira versão poderá utilizar dados demonstrativos, sem integração bancária ou pagamentos reais.
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+## Desenvolvimento com IA
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+Para desenvolver o conceito, utilizei o ChatGPT na organização das ideias, criação do PRD e definição das funcionalidades.
 
-### 3. Entregando o Desafio na DIO
+Depois, utilizei o Lovable para transformar essas informações em um protótipo visual.
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+CRIE UM APP DE FINANÇAS PESSOAIS COM BASE NO SEGUINTE PRD (PDR)
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+<img width="352" height="352" alt="image" src="https://github.com/user-attachments/assets/309d7ce0-13d0-409a-97f0-8099c237db5a" />
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
-## 💬 Conclusão
+<img width="1192" height="782" alt="image" src="https://github.com/user-attachments/assets/ae22bc2f-9311-4602-b33d-de77cf7b85e3" />
+<img width="1205" height="822" alt="image" src="https://github.com/user-attachments/assets/ed894ddc-d288-4439-b7c8-c34033d59025" />
+<img width="1211" height="780" alt="image" src="https://github.com/user-attachments/assets/9814c30c-8b0d-4422-9eae-115ca2404e0f" />
+<img width="1198" height="790" alt="image" src="https://github.com/user-attachments/assets/ce126ed4-3dd8-4d63-bf23-1a0c0df9f087" />
+<img width="1212" height="831" alt="image" src="https://github.com/user-attachments/assets/c8454c50-5ded-4229-9367-1fdace8b9a89" />
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+## O que aprendi
+
+**O que funcionou bem?**
+
+A IA ajudou a organizar minhas ideias e transformar o conceito inicial em um projeto mais estruturado. O PRD também facilitou a criação do protótipo no Lovable.
+
+**O que não funcionou como esperado?**
+
+Foi necessário ajustar alguns prompts para simplificar a interface e deixar o aplicativo mais próximo da experiência que eu imaginava.
+
+**O que aprendi sobre conversar com IAs?**
+
+Aprendi que quanto mais claras e detalhadas são as instruções, melhores são os resultados. Também percebi a importância de testar, revisar e melhorar os prompts durante o desenvolvimento.
+
+## Próximos passos
+
+- Melhorar o onboarding personalizado.
+- Desenvolver as funcionalidades internas.
+- Testar a experiência com usuárias.
+- Evoluir o projeto para um SaaS funcional.
+
+## Conclusão
+
+A criação da ZAMI foi uma oportunidade de colocar em prática o Vibe Coding e explorar como a Inteligência Artificial pode ajudar no desenvolvimento de soluções digitais.
+
+O projeto também faz parte da minha transição para a área de tecnologia, conectando minha experiência em Gestão de Projetos e Customer Experience ao aprendizado de IA e desenvolvimento de produtos.
+
+**ZAMI — Cultive sua liberdade financeira.**
